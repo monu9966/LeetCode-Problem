@@ -14,7 +14,7 @@ class Solution:
         result = 0
 
         for i in range(n):
-            if i + 1 < 0 and roman[s[i]] < roman[s[i + 1]]:
+            if i + 1 < n and roman[s[i]] < roman[s[i + 1]]:
                 result -= roman[s[i]]
 
             else:
